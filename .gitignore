@@ -1,8 +1,28 @@
+*/bin/*
+
 *.class
 
-target/
-
 # Package Files #
-*.jar
 *.war
 *.ear
+
+
+# Eclipse
+.settings/
+*.project
+*.classpath
+.prefs
+*.prefs
+.metadata/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
